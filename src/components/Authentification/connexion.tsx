@@ -63,7 +63,7 @@ export default function Connexion() {
         showConfirmButton: false,
       });
 
-      navigate("/navbar");
+      navigate("/");
     } catch (error) {
       Swal.fire({
         icon: "error",
